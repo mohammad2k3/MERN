@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Complex Form</title>
 </head>
 <body>
     <form>
+        <h1><b>COMPLEX FORM</b></h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone">
+            <label for="dob">DOB:</label>
+            <input type="date" id="dob">
+            <label for="radio 1">Gender:</label>
+            <label for="radio 1">male</label>
+            <input type="radio" id="radio 1" name="a">
+            <label for="radio 2">female</label>
+            <input type="radio" id="radio 2" name="a">
+            <label for="option">Country</label>
+            <select id="option">
+                <option selected disabled>choose</option>
+                <option>India</option>
+                <option>U.S</option>
+                <option>UK</option>
+            </select>
+        </fieldset>
         <fieldset>
             <legend>
-                <label for="address">Address :</label>
+                <label for="address">Address Street</label>
                 <input type="text" id="address">
+                <label for="city">City</label>
+                <input type="text" id="city">
+                <label for="state">State</label>
+                <input type="text" id="state">
+                <label for="code">Zip Code</label>
+                <input type="text" id="code">
             </legend>
         </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comments">Comments:</label>
+            <textarea id="comments"></textarea>
+            <label for="checkbox">I agree to the terms of service</label>
+            <input type="checkbox" id="checkbox">
+        </fieldset>
+        <input type="submit">
     </form>
 </body>
 </html>
