@@ -1,0 +1,24 @@
+h1
+{
+    font-size: xx-large;
+    text-align: center;
+    color: green;
+}
+table
+{
+    background-color: aquamarine;
+    border-color: darkblue;
+    border-radius: 5%;
+}
+#image 
+{
+    background-color: blanchedalmond;
+}
+.list
+{
+    background-color: beige;
+}
+ul,ol,pre
+{
+    width: 500px;
+}
