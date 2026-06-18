@@ -1,0 +1,27 @@
+*
+{
+    font-size: xx-large;
+}
+h1
+{
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: brown; */
+    border: solid brown 5px;
+    border-radius: 100px;
+    text-align: center;
+    width: 500px;
+    background-color: beige;
+    padding: 25px;
+    margin: 50px;
+
+}
+table
+{
+    border: green solid 5px;
+    border-radius: 15px;
+    background-color: rgba(185, 32, 106, 0.235);
+    width: 400px;
+    padding: 20px;
+    margin: 50px;
+}
