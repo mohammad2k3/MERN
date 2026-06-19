@@ -8,9 +8,32 @@ img
 
 
 }
+.container
+{
+    position: relative;
+    height: 1000px;
+    background-color: beige;
+}
 .image2
 { 
-    position: relative; 
+    /* position: relative; 
     top: 100px;
-    left: 100px;
+    left: 100px; */
+    position: absolute; /* Over Lapping*/
+    top: 100px;
+}
+.image4
+{
+    position: fixed;
+}
+.image3
+{
+    position: sticky;
+    top: 100px;
+}
+.box
+{
+    height: 1000px;
+    background-color: aquamarine;
+    border: 5px solid black;
 }
