@@ -1,0 +1,16 @@
+div
+{
+    border: 5px solid black;
+}
+img
+{
+    margin: 10px;
+
+
+}
+.image2
+{ 
+    position: relative; 
+    top: 100px;
+    left: 100px;
+}
