@@ -1,0 +1,22 @@
+.box
+{
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    border: 5px solid black;
+    display: flex;
+
+    /* transition-property: all; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function: linear; */
+
+    transition: all 2s 0s linear;
+}
+.box:hover
+{
+    border-radius: 100%;
+    width: 700px;
+    height: 700px;
+    background-color: olivedrab;
+}
