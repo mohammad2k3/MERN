@@ -8,7 +8,7 @@
 {
     height: 100%;
     width: 100%;
-    overflow-x: none;
+    overflow-x: hidden;
     background-image: radial-gradient( circle 476px at 54.8% 51.5%,  rgba(168,229,253,1) 0%, rgba(244,244,254,1) 42.3%, rgba(244,244,254,1) 100.2% );
 }
 
@@ -87,6 +87,7 @@ a
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* flex-wrap: wrap; */
 }
 .rightBox
 {
