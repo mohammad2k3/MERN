@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(33,115,130,1) 1.4%, rgba(35,39,124,1) 90% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    padding: 20px;
+}
+.card img
+{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}
+.card h1
+{
+    font-weight: bolder;
+    font-size: 2.3rem;
+}
+.card p
+{
+    font-size: 1.1em;
+}
