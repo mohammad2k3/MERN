@@ -92,7 +92,7 @@ a
 {
     position: relative;
     overflow: hidden;
-    height: 14rem;
+    height: 10rem;
 }
 
 .cardImage
@@ -142,7 +142,8 @@ a
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .authorContainer
@@ -181,9 +182,9 @@ a
 
 .cardTagContainer
 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 3px;
     line-height: 1.3rem;
     padding: 0.25rem 0.5rem;
     color: gray;
