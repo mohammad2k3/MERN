@@ -33,6 +33,31 @@ a
     align-items: center;
     position: relative;
     margin-top: 0;
+
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  
+    transform: translateY(-95%); 
+    transition: transform 0.4s ease;
+    transition-delay: 0ms; 
+}
+
+.navContainer::after 
+{
+    content: "";
+    position: absolute;
+    bottom: -50px; /* Navbar ke 50px niche tak failega */
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+}
+
+.navContainer:hover
+{
+    transform: translateY(0);
 }
 nav
 {
@@ -90,6 +115,7 @@ a
         gap: 0.2rem;
     }
 }
+
 .footerBox
 {
     background-color: #000000;
@@ -97,12 +123,12 @@ a
     width: 100%;
     text-align: center;
     min-height: 40px;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 .footerBox p
 {
     color: azure;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .headerContainer
@@ -172,8 +198,6 @@ a
     border: 1px solid rgba(106, 102, 102, 0.511);
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-
 
     background-color: whitesmoke;
 }
@@ -306,3 +330,4 @@ a
     padding: 0.25rem 0.5rem;
     color: gray;
 }
+

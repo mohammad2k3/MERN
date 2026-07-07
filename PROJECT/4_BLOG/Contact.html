@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - CodeHelp Blog</title>
+  <link rel="stylesheet" href="Contact.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="navContainer">
+            <nav>
+                <ul id="navList">
+                    <li>
+                        <p id="navLogo"> BLOGING </p>
+                    </li> 
+                    <li>
+                        <div id="navItems">
+                            <a href="Index.html">Home</a>
+                            <a href="Contact.html">Contact</a>
+                            <a href="About.html">About Us</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+   <div class="divContainer">
+        <main class="contact-main">
+            <h1>Contact Us</h1>
+            <p>Fill out the form below and we will get back to you soon.</p>
+            
+            <form action="https://formsubmit.co/ahmadraza97x@gmail.com" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <textarea name="message" placeholder="Write your message here..." rows="6" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Submit Message</button>
+            </form>
+        </main>
+   </div>
+
+    <footer>
+    <div class="footerBox">
+      <p>Copyright &copy; CodeHelp Blog Pvt Ltd 2028. All Rights Reserved</p>
+    </div>
+    </footer>
+
+</body>
+</html>
