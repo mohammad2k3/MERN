@@ -25,3 +25,6 @@ solve();
 const b = 30;
 // b = 40;  NOT ALLOWED
 console.log(b);
+
+let c = "Mohammad Ahmad Raza";
+console.log(c);
